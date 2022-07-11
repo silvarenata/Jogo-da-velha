@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+<head>
+    <title>Jogo da Velha</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="jogo.css">
+    
+</head>
+
+<body>
+    <main> 
+        <section class="titulo">
+            <h1> Jogo da Velha </h1>
+        </section>
+        <div>
+            <h3 class="jogadorX" id="X"> Jogador X: </h3>
+            <h3 class="jogadorO" id="O"> Jogador O: </h3>
+        </div>
+       
+        <section class="container" id="tabuleiro">
+            <div class="casa" id="1" onclick="jogar(1)"></div>
+            <div class="casa" id="2" onclick="jogar(2)"></div>
+            <div class="casa" id="3" onclick="jogar(3)"></div>
+            <div class="casa" id="4" onclick="jogar(4)"></div>
+            <div class="casa" id="5" onclick="jogar(5)"></div>
+            <div class="casa" id="6" onclick="jogar(6)"></div>
+            <div class="casa" id="7" onclick="jogar(7)"></div>
+            <div class="casa" id="8" onclick="jogar(8)"></div>
+            <div class="casa" id="9" onclick="jogar(9)"></div>
+    </section>
+    <section>
+        <h3 class="Vencedor"> O vencedor é: </h3>
+        <button id="reset"> "Reset"</button>
+    </section>
+    
+    </main>
+
+
+    <script src ="./jogo.js"></script>
+</body>
+</html>

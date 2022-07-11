@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+body {
+    font-family: 'open sams', sans-serif;
+    margin: 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+    padding: 15px;
+    background-color: #eaeaea;
+    color: #471a6b;
+    font-size: 60px;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    flex-flow: row ;
+    justify-content: space-evenly;
+    max-width: 298px;
+    background-color: #decaef;
+    padding: 20px;
+    border-radius: 10px;
+    grid-template-columns: 34% 34% 34%;
+    grid-template-rows: 34% 34% 34%;
+}
+
+.casa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    border: 3px solid #724796;
+    width: 80px;
+    height: 70px;
+    margin: 4px 2px;
+    padding-top: 10px;
+    cursor: pointer;
+    padding-top: 20px;
+    background-color: #eaeaea;
+    flex: center;
+    color:#5d2e83;
+}
+
+.jogadorX {
+    color: #724796;
+    font-size: 30px;
+  }
+
+.jogadorO {
+    color: #724796;
+    font-size: 30px;
+}
+
+.Vencedor {
+    color: #724796;
+    font-size: 30px;
+}
