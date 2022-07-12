@@ -7,19 +7,21 @@
 //const campojogadorO = document.querySelector(".jogadorO")
 //campojogadorO.innerHTML += jogadorO
 
+
 let vez = "X"
 
-function jogar(id) {
+const jogar = (id) => {
    const casa = document.getElementById(id)
- 
-   if (vez === "X") {
-        casa.innerHTML = "X"
-        vez ="O"
+
+   if(casa.innerHTML == ""){
+        if(vez == "X"){
+          casa.innerHTML = "X"
+          vez = "O"
+        } else{
+          casa.innerHTML = "O"
+          vez = "X"
+        }
     }
-   else if (vez === "O") {
-        casa.innerHTML = "O"
-        vez = "X"
-   }
 }
 
 const possibilidades = [
@@ -32,8 +34,6 @@ const possibilidades = [
     [1, 5, 9],
     [3, 5, 7]
 ]
-
-const 
 
 
 
